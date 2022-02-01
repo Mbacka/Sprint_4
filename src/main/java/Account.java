@@ -11,9 +11,6 @@ public class Account {
 
         String lcName = name.trim();
 
-        //Этот метод должен проверять, что сохранённая через конструктор строка соответствует требованиям.
-        //Если строка удовлетворяет условиям, метод возвращает true, иначе — false.
-
         if (lcName.length() <= 3 || lcName.length() >= 19) {
             return false;
         }

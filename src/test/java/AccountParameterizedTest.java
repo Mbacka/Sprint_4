@@ -5,7 +5,6 @@ import org.junit.runners.Parameterized;
 
 import static junit.framework.TestCase.assertEquals;
 
-
 @RunWith(Parameterized.class)
 public class AccountParameterizedTest {
 
